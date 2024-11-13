@@ -1,0 +1,71 @@
+commit b4fb95c03e9a5696c7f0734fa5203a199ea48c4d
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sun Sep 8 00:50:41 2024 +0200
+
+    Added an extra feature to display a greenline on the lane of the player that won
+
+commit ce36596f0d71173f1dca6b6a70f92a7300fede44
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sat Sep 7 02:53:35 2024 +0200
+
+    Modified FinishCounter: added 1 to winning team to allow counting from 1 to 10 not from 0 to 9
+
+commit c69a59e8984610ebc9974f0a0881ca7606a7c5f4
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sat Sep 7 02:28:11 2024 +0200
+
+    Modified Swimmer.java: in the run method, we synchronize objects for lane acqirement
+
+commit 85b321c50121ad9b1cf65079c05b9e814b1b30df
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sat Sep 7 02:20:28 2024 +0200
+
+    Modified Swimmer.java: added starting grid/lanes flag, to help in making one thread occupy a lane at a time
+
+commit 661b0ae02b5cb3135c5c7d5f705a9756bb89dcba
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Fri Sep 6 02:30:26 2024 +0200
+
+    Modified Swimmer: added one parameter to the constructor called SwimTeam (orderWithIn from SwimTeam)
+
+commit 075a78911494ce780da9aa2d16144e7f7a77c96a
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Fri Sep 6 02:27:22 2024 +0200
+
+    Modified SwimTeam.java: added orderWithIn variable and getOrder and incrementOrder method, I use these in Swimmer to order the players
+
+commit 45df9878291b227836c8f21b1a9755b204e4d555
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Fri Sep 6 02:24:14 2024 +0200
+
+    Modified StadiumGrid.java: synchronized the enterStadium method, moveTowards, and  jumpTo
+
+commit 16fca8072e0740eb89fb1ea9b49cf39a642d6366
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Tue Sep 3 10:35:24 2024 +0200
+
+    Edited Stadium grid and removed the spinning part
+
+commit fd6222d686699130ab742e49a8b4f45bec7aea60
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Wed Aug 28 07:55:34 2024 +0200
+
+    Modified Swimmer.java: added a cyclicbarrier, to make players wait until the first line of swimmers is ready
+
+commit acaff3a72281eb63abf1d62fdcd5b34218de1cc9
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Wed Aug 28 00:30:10 2024 +0200
+
+    Changed GridBlock.java: I synchronized the get block and release block methods
+
+commit 7a4e735d4f34ae26deb3155b99b002c30f773b20
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sun Aug 18 20:12:30 2024 +0200
+
+    Modified start button, took the logic from main to the method actionPerformed under startB, everything in actionPerformed of startB was in the main method
+
+commit ac95d5944783f091a6f7c74b0c592953f3fd67dc
+Author: phathutshedzo <ntspha021@myuct.ac.za>
+Date:   Sun Aug 18 19:51:12 2024 +0200
+
+    Added all the files
