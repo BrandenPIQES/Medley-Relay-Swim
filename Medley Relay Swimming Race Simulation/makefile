@@ -23,7 +23,8 @@ MAIN_CLASS = medleySimulation.MedleySimulation
 all: directories $(CLASS_FILES)
 
 directories:
-	@mkdir -p $(BIN_DIR)
+	@if not exist "$(BIN_DIR)" mkdir "$(BIN_DIR)"  # IF YOU ARE USING UNIX, CHANGE THIS LINE TO: mkdir -p $(BIN_DIR)
+
 
 $(BIN_DIR)/%.class: $(SRC_DIR)/%.java
 	javac $(JAVAC_FLAGS) $<
