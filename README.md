@@ -60,7 +60,9 @@ Medley-Relay-Swim/
 2. **Running Manually (Without makefile)**
 
    If you don't want to use make, you can compile and run manually:
-   i. ```bash
+   
+   i.
+      ```bash
       mkdir -p bin
       ```
    
