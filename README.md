@@ -12,6 +12,7 @@ This project's objective was to correct an existing erroneous code and make it a
 - Team relay mechanism: Each swimmer in the team can only start swimming after the previous teammate has completed their stroke.
 
 ## Project Structure
+```bash
 Medley-Relay-Swim/
 │── src/medleySimulation/
 │   ├── CounterDisplay.java
