@@ -28,7 +28,31 @@ Medley-Relay-Swim/
 │── log.txt
 │── makefile
 │── README.md
+```
 
 ## Requirements
 - Java Development Kit (JDK) 8 or later
 - make (for compiling and running via the Makefile)
+
+## Installation
+1. Ensure you have Java installed:
+   ```bash
+   java --version
+   ```
+2. Install make (if not installed). On windows, you can install it using Chocolatey
+   ```bash
+   choco install make
+   ```
+   On Linux/macOS:
+   ```bash
+   sudo apt install make  # Debian-based
+   sudo yum install make  # RedHat-based
+   ```
+
+## Compilation and Execution
+1. **Using Makefile**
+
+To run the simulation, run
+```bash
+make run
+```
