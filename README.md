@@ -49,6 +49,11 @@ Medley-Relay-Swim/
    sudo yum install make  # RedHat-based
    ```
 
+3. Clone the repo and navigate to the folder
+   ```bash
+   git clone https://github.com/BrandenPIQES/Medley-Relay-Swim.git
+   ```
+
 ## Compilation and Execution
 1. **Using Makefile**
 
