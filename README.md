@@ -52,7 +52,15 @@ Medley-Relay-Swim/
 ## Compilation and Execution
 1. **Using Makefile**
 
-To run the simulation, run
-```bash
-make run
-```
+   To run the simulation, run:
+   ```bash
+   make run
+   ```
+
+2. **Running Manually (Without makefile)**
+
+   If you don't want to use make, you can compile and run manually:
+   i. ```bash
+      mkdir -p bin
+      ```
+   
